@@ -1,1 +1,14 @@
 <h1>الصفحة الرئيسية</h1>
+<hr/>
+
+<%= link_to 'New Article', 'articles/new' %>
+
+<% @articles.each do |a| %>
+  <div>
+    <h2><%=a.title%></h2>
+    <p><%=a.description%></p>
+    <%=a.created_at%><%= link_to 'Edit', "articles/#{a.id}/edit" %>
+    <%= link_to 'Edit', edit_article_path(a) %>
+    <%= link_to 'Show', article_path(a) %>
+  </div>
+<%end%>
