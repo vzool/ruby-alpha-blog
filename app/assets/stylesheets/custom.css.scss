@@ -1,2 +1,67 @@
+$navbar-default-bg: #000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('deep-web.jpg');
+  background-size: cover;
+  height: 650px;
+}
+
+.jumbotron h1{
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.jumbotron p{
+  color: #fff;
+}
+
+.signup-button{
+  margin-top: 360px;
+}
+
+div.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+div.footer a:hover{
+  color: #222;
+}
+
+div.footer small{
+  float: left;
+}
+
+div.footer ul{
+  float: right;
+  list-style: none;
+}
+
+div.footer ul li{
+  float: left;
+  margin-left: 15px;
+}
