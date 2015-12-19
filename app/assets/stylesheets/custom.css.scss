@@ -22,7 +22,7 @@ $navbar-default-bg: #000;
 }
 
 .jumbotron{
-  background-image: asset-url('deep-web.jpg');
+  background-image: asset-url('deep_web.jpg');
   background-size: cover;
   height: 650px;
 }
@@ -43,6 +43,15 @@ $navbar-default-bg: #000;
 
 .signup-button{
   margin-top: 360px;
+}
+
+.article-actions{
+  border-top: 1px solid  #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
 }
 
 div.footer{
@@ -69,3 +78,4 @@ div.footer ul li{
   float: left;
   margin-left: 15px;
 }
+
